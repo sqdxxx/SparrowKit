@@ -1,9 +1,11 @@
 
 import Foundation
 
-class Hello {
+public class Hello {
 
-    func word() -> String {
+    public init() {}
+
+    public func word() -> String {
         print("hello world!")
         return ""
     }
